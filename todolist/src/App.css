@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333;
+  font-family: monospace, sans-serif;
+}
+
+h1 {
+  text-transform: uppercase;
+  line-height: 100px;
+  transition: .5s,;
+  letter-spacing: 5px;
+}
+
+h1:hover {
+  color: red;
+}
+
+.App {
+  text-align: center;
+  margin-top: 50px;
+  background-color: bisque;
+  width: 600px;
+  height: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  border: burlywood 2px solid;
+  border-radius: 50px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  font-size: 18px;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  margin-left: 20px;
+  color: white;
+  background: none;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  height: 50px;
+  border: none;
+  background-color: #333;
+  text-transform: uppercase;
+  border-radius: 10px;
+  letter-spacing: 2px;
+  transition: .4s;
+}
+
+button:hover {
+  background-color: red;
+  color: #333;
+}

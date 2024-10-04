@@ -25,7 +25,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1 className="header">ToDo List</h1>
+      <h1 className="header">TodoLista</h1>
       <AddTodo addTodo={addTodo} />  {}
       <TodoList todos={todos} toggleTodo={toggleTodo} deleteTodo={deleteTodo} />  {}
     </div>

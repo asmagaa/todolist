@@ -20,7 +20,7 @@ function AddTodo({ addTodo }) {
         placeholder="Add a new task" 
         className="todo-input" 
       />
-      <button type="submit" className="add-todo-button">Add</button>
+      <button type="submit" className="add-todo-button">dodaj</button>
     </form>
   );
 }

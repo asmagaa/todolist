@@ -6,7 +6,7 @@ function TodoItem({ todo, toggleTodo, deleteTodo }) {
       <span onClick={() => toggleTodo(todo.id)} className="todo-text">
         {todo.text}  {}
       </span>
-      <button onClick={() => deleteTodo(todo.id)} className="delete-button">Delete</button>  {}
+      <button onClick={() => deleteTodo(todo.id)} className="delete-button">Usuń</button>  {}
     </li>
   );
 }

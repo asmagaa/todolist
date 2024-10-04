@@ -23,7 +23,7 @@ function AddTodo({ addTodo, handleInputChange, searchQuery }) {
         type="text"
         value={text}
         onChange={handleChange}
-        placeholder="Dodaj albo wyszukaj zadanie..."
+        placeholder="Dodaj albo wyszukaj..."
         className="todo-input"
       />
       <button type="submit" className="add-todo-button">dodaj</button>

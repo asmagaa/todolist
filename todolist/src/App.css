@@ -30,7 +30,7 @@ h1:hover {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  overflow: hidden;
+  overflow: scroll;
   border: burlywood 2px solid;
   border-radius: 50px;
 }
